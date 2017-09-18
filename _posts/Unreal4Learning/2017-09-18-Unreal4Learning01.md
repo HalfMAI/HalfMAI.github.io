@@ -12,7 +12,7 @@ tags:
 
 ###### 关于C++崩溃时的调试
 - ***在UE_Editor执行时，崩溃时会生成调用堆栈在剪贴板上***
-- crashReport的文件夹里有log和miniDump.只要高度的PDB文件还在，直接打开就可以看到错误的代码
+- crashReport的文件夹里有`log`和`minidump`。只要调试的`PDB文件`还在，直接打开就可以看到错误的代码
 
 ###### 断言
 运行时断言宏类型
@@ -20,8 +20,11 @@ tags:
 - Debug版并停止执行
 - 不停止并报告错误
 
-![Debug宏定义]({{site.url}} {{site.baseurl}}
-/Unreal/build_debug_define.jpg)
+![]({{ site.url }}{{ site.baseurl }}
+/assets/images/Unreal/build_debug_define.jpg)
+
+
+---
 
 
 **check(expression);**
@@ -82,7 +85,7 @@ checkSlow(List->HasCycle());
 checkfSlow(Class->IsA(AActor::StaticClass()), TEXT("Class (%s) is wrong type"), Class->GetName());
 verifySlow(LastValue == Current);
 ```
-- - -
+---
 
 **bool ensure(expression);**
 - 应用不会崩溃，会输出信息到Crash文件夹里的log，而且只会调用一次。
@@ -97,8 +100,8 @@ ensureMsgf(this->PhysicsHandle != nullptr,
 	);
 ```
 
-** ensureAlways() **
+**ensureAlways()**
 - 同上面的ensure，但会鉴定多次
 
-** ensureMsgfAlways() **
+**ensureMsgfAlways()**
 - 同上面的ensureMsgf，但会鉴定多次
