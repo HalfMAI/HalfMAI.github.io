@@ -12,9 +12,14 @@ tags:
 
 ###### 关于Landscape
 
+技术指导:
+https://docs.unrealengine.com/latest/INT/Engine/Landscape/TechnicalGuide/index.html
+
 
 ###### Shader部分
-- Landscape的Scale单位为cm。大小为 scale\*quards\*components。
+- Landscape的Scale单位为cm。大小为 scale\*quards\*sections\*components。
+ - X-scale of 500, 7x7 quads, 1x1 section per component and 16x16 components
+ - 500cm x 7quads x  1 sections x 16components = 560m
 - Landscape需要包含多层Layer才可以在Paint多层layer。
 - LandscapeCoords可以控制layer的UV。
 - 如果要做FlatShading需要用AbsoluteWorldPosition，DDX，DDY进行Cross求出当面的法线。
