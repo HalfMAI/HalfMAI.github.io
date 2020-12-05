@@ -13,7 +13,7 @@ tags:
 
 # 2020秋季学习挑战
 
-## 学习课程
+**学习课程：**
 
 * [构建游戏场景 - 侦探事务所](https://www.unrealengine.com/onlinelearning-courses/build-a-detectives-office-game-environment)
 * [将蓝图转换为C++代码](https://www.unrealengine.com/onlinelearning-courses/converting-blueprints-to-c)
@@ -70,9 +70,18 @@ tags:
 > ![UE2020Fall_1_folder_stuct.png](/assets/images/Unreal/UE2020Fall_1_folder_stuct.png)
 > * 制作资源列表,用于安排开发进度,也可记录像某纹理属于哪个模型等信息方便管理
 
-## UE项目流程
+## UE项目初始准备流程
 
 > * 以第一人称模版为基础进行项目建立
+> * 了解简单的世界大纲操作与文件夹结构管理
+> * 编辑第一人称角色中的内容,修改设置中使用的HUD,模型与发射功能
+
+## 空间原型制作循环部分
+
+> * 使用其它软件或者UE内的BSP绘制空间草图
+> * 原型空间草图FBX导入时,可不选择【自动生成碰撞】与 【自动生成光照UV】
+> * 测试【空间大小】,如果不合适,再循环第一步
+> * 空间原型制作应该只关注空间比例感,不要过于追求细节
 
 # 2. 将蓝图转换为C++代码
 
