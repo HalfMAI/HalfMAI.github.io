@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>HalfMAI's Memory Blog</title>
+        <link>https://HalfMAI.github.io/blog</link>
+        <description>HalfMAI's Memory Blog</description>
+        <lastBuildDate>Wed, 26 Jan 2022 09:08:11 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Distortion Shader]]></title>
+            <link>https://HalfMAI.github.io/blog/BenClowardMaterial/2021-08-08-DistortionShader</link>
+            <guid>/BenClowardMaterial/2021-08-08-DistortionShader</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[Distortion Shader]]></description>
+            <content:encoded><![CDATA[<p><img src="/img/blog_img/BenClowardMaterial/01/distortionEffect.gif" alt="Distortion Shader"/> <br/>
+Distortion Shader</p><h1>学习地址：</h1><p>Distortion Shader - UE4 Materials 101 - Episode 4
+<a href="https://www.youtube.com/watch?v=gwx2NOZJ5CE">https://www.youtube.com/watch?v=gwx2NOZJ5CE</a> </p><h1>学习重点：</h1><ul><li>Texture的UV坐标位置变换：Panner节点</li><li>通过提供图片各通道灰度进行Add</li><li>使用Add节点进行对效果 叠加</li></ul><h1>具体效果：</h1><p><img src="/img/blog_img/BenClowardMaterial/01/distortionEffect.gif" alt="Distortion Shader"/></p><h1>节点预览：</h1><p><img src="/img/blog_img/BenClowardMaterial/01/%E5%85%A8%E5%9B%BE%E8%8A%82%E7%82%B9.png" alt="节点全图"/></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Blender学习]]></title>
+            <link>https://HalfMAI.github.io/blog/BlenderLearning/2017-09-16-BlenderLearning_01</link>
+            <guid>/BlenderLearning/2017-09-16-BlenderLearning_01</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[基本上带方向的移动，按x，y，z可以选定轴shift+XYZ 是反选定轴。]]></description>
+            <content:encoded><![CDATA[<p>基本上带方向的移动，按x，y，z可以选定轴shift+XYZ 是反选定轴。
+右键选择多个obj时，像make parent之类的合并操作等，都是应用到最后的obj上。
+进入Paint模式可以把顶点分为顶点组。
+所有资源都需要有物体使用者才会被保留，可以用Fake Users来保留。</p><hr/><p>贝塞尔曲线
+Ctrl+LMB添加顶点， v设置顶点间曲线(分起始终点两个)，Alt+C 转换为Mesh。
+属性设置：
+lerp的顶点密度。
+设置其它Mesh沿着曲线生成/扭曲。</p><hr/><p>基本操作，基本上记住了操作就能记住大部分东西了:</p><ul><li>x = 删除</li><li>g = 移动、 r = 旋转、s = 缩放</li><li>e = 挤出、 i = 在平面内插入平面</li><li>k = 切割， 再按e可以断线另外切， 空格确认。</li><li>shift+B = 平滑边缘，会细分面、 ctrl+shift+B = 平滑顶点</li><li>ctrl+R = loop cut</li><li>shift+A = 添加XXXX</li><li>w = 杂项键，用途比较多。像细分，删除重复顶点等。</li><li>g，g = 在线内移动顶点</li><li>b、c、ctrl + LMB = 选物</li><li>p = parent Obj 层级的操作，合并/分离等。</li></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[关于广告投放]]></title>
+            <link>https://HalfMAI.github.io/blog/Marketing/2016-09-16-Marketing_01</link>
+            <guid>/Marketing/2016-09-16-Marketing_01</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[一般结算模式]]></description>
+            <content:encoded><![CDATA[<h1>广告投放相关术语</h1><h2>一般结算模式</h2><p><img src="/img/blog_img/Marketing/img_01.png" alt="img_01"/></p><h2>展示端结算方式</h2><blockquote><ul><li><em>CPC(Cost Per Mille)-每千人成本</em>
+只要向足够量级的用户展示了广告主的内容，广告主就要付费。按此计费的广告一般是以品牌展示柜和产品发布为主。曝光效果比较好。</li><li><em>CPT(Cost Pre Time)-每段时间成本</em>
+以固定时间买断一段时间的广告位展示，如开屏广告、富媒体广告或应用市场的下拉关键词等。</li><li><em>CPC(Cost Pre Click)-每点击成本</em>
+根据广告被点击的次数收费。关键词竞价一般采用这种模式，在信息流广告系统中比较常见。</li></ul></blockquote><h2>转化结算方式</h2><blockquote><ul><li><em>CPA(Cost Pre Action)-每行动成本</em>
+按实际效果计价的广告行为。</li><li><em>CPD(Cost Pre Download)-每下载成本</em>
+按用户完成APP下载计费，一般用在应用商店、积分墙、流量联盟等。</li><li><em>CPI(Cost Pre Install)-每安装成本</em>
+按用户激活App计费，一般用于衡量广告投放效果的指标之一。
+以 Click-&gt;Download-&gt;Open 三步连接一起才算。</li><li><em>CPS(Cost Pre Sales)-每销售成本</em>
+按完成订单的用户数量结算，一般用于高质量的垂直渠道、返利网站等。</li></ul></blockquote><h2>其它相关名词</h2><blockquote><ul><li><em>CTR(Click Through Rate)-点击率</em></li><li><em>CTR = Click / Impression (点击量/展示量)</em>
+平均值在 0.5% ~ 1.5%</li><li><em>CVR(Click Value Rate)-转化率</em></li><li><em>CVR = Install / Click</em>
+平均在 1% ~ 3%</li><li><em>CPR(Cost Pre Response)-每回应成本</em>
+以浏览者的每一个回应计费</li><li><em>RTB(Real Time Bidding)-实时竞价</em>
+以第三方技术在大师网站针对每一个用户展示行为进行评估以及出价的竞价技术</li><li><em>DSP(Demand-Side Platform)-需求方平台</em></li><li><em>SSP(Supply Side Platform)-供应方平台</em></li><li><em>Retention Rate-留存率</em>
+下载应用和游戏后，有多少用户继续使用，有次日、3日、5日、7日等其它特定天数的留存计算。</li><li><em>Cap-配额</em></li><li><em>Campaign-投放单元</em>
+某客户某游戏在某区域的宣传的投放单元</li><li><em>IO(Insertion Order)-合作意向书</em>
+合作意向书，下单，双方签了之后就可以开始跑campaign了，对IO因特别关注渠道关于停campaign和开campaign的条款，一般来说渠道需要48小时停campaign或者降价。</li></ul></blockquote>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unreal4 学习记录-调试]]></title>
+            <link>https://HalfMAI.github.io/blog/Unreal4Learning/2017-09-18-Unreal4Learning01-Debug</link>
+            <guid>/Unreal4Learning/2017-09-18-Unreal4Learning01-Debug</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[调试相关记录]]></description>
+            <content:encoded><![CDATA[<p>调试相关记录</p><h6>关于C++崩溃时的调试</h6><ul><li><strong><em>在UE_Editor执行时，崩溃时会生成调用堆栈在剪贴板上</em></strong></li><li>crashReport的文件夹里有<code>log</code>和<code>minidump</code>。只要调试的<code>PDB文件</code>还在，直接打开就可以看到错误的代码</li></ul><h6>断言</h6><p>运行时断言宏类型</p><ul><li>停止执行</li><li>Debug版并停止执行</li><li>不停止并报告错误</li></ul><p><img src="/img/blog_img/Unreal/build_debug_define.jpg"/></p><hr/><p><strong>check(expression);</strong></p><ul><li>false时停止执行，只在build(Do_CHECK=1)时执行</li></ul><p><strong>checkf(expression, ...);</strong></p><ul><li>check崩溃时，可以log信息在生成的调用堆栈上</li></ul><p><strong>verify(expression);</strong>
+<strong>verifyf(expression, ...);</strong></p><ul><li>和check一样，但无论是否build都会执行</li></ul><p><strong>checkCode(expression);</strong></p><ul><li>check的可以运行代码的版本，使用do/while去执行(为什么？)</li></ul><pre><code class="language-js">checkCode( 
+    if( Object-&gt;HasAnyFlags( RF_PendingKill ) ) { 
+        UE_LOG(LogUObjectGlobals, Fatal, TEXT(&quot;Object %s is part of root set though has been marked RF_PendingKill!&quot;), *Object-&gt;GetFullName() ); 
+    } 
+);
+</code></pre><p><strong>checkNoEntry();</strong></p><ul><li>check的用于设置代码调用异常的地方</li></ul><pre><code class="language-js">switch (MyEnum)
+{
+    case MyEnumValue:
+        break;
+    default:
+        checkNoEntry();
+        break;
+}
+</code></pre><p><strong>checkNoReentry();</strong> / <strong>checkNoRecursion();</strong></p><ul><li>用于检查某些函数只被调用一次，调用多次就崩。</li></ul><p><strong>unimplemented();</strong></p><ul><li>用于检查子类是否override父类的函数</li></ul><pre><code class="language-js">class FNoImpl
+{
+    virtual void DoStuff()
+    {
+        // 必须对此进行覆写
+        unimplemented();
+    }
+};
+</code></pre><p>启用 DO_GUARD_SLOW 后，断言宏的第二类才会执行。DO_GUARD_SLOW 通常只在调试版本中启用，但也可针对项目进行修改。它们的运行较为缓慢，在开发或发布版本中不需要进行许多无谓的检查。这些宏的执行与较快的宏并无差异。这些宏是 checkSlow()、checkfSlow() 和 verifySlow()。</p><pre><code>checkSlow(List-&gt;HasCycle());
+checkfSlow(Class-&gt;IsA(AActor::StaticClass()), TEXT(&quot;Class (%s) is wrong type&quot;), Class-&gt;GetName());
+verifySlow(LastValue == Current);
+</code></pre><hr/><p><strong>bool ensure(expression);</strong></p><ul><li>应用不会崩溃，会输出信息到Crash文件夹里的log，而且只会调用一次。</li></ul><p><strong>ensureMsg(expression, message);</strong> 4.9抛弃，现使用 <strong> ensureMsgf(expression, message, ...); </strong> 代替</p><ul><li>应用不会崩溃，会输出信息到Crash文件夹里的log，而且只会调用一次。</li></ul><pre><code class="language-js">ensureMsgf(this-&gt;PhysicsHandle != nullptr,
+        *FString::Printf(TEXT(&quot;%s: PhysicsHandle NOT FOUND!&quot;), 
+        *GetOwner()-&gt;GetName())
+    );
+</code></pre><p><strong>ensureAlways()</strong></p><ul><li>同上面的ensure，但会鉴定多次</li></ul><p><strong>ensureMsgfAlways()</strong></p><ul><li>同上面的ensureMsgf，但会鉴定多次</li></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unreal4 学习记录-Landscape相关]]></title>
+            <link>https://HalfMAI.github.io/blog/Unreal4Learning/2017-09-27-Unreal4Learning02-Landscape</link>
+            <guid>/Unreal4Learning/2017-09-27-Unreal4Learning02-Landscape</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[关于Landscape]]></description>
+            <content:encoded><![CDATA[<h6>关于Landscape</h6><p>技术指导:
+<a href="https://docs.unrealengine.com/latest/INT/Engine/Landscape/TechnicalGuide/index.html">https://docs.unrealengine.com/latest/INT/Engine/Landscape/TechnicalGuide/index.html</a></p><h6>Shader部分</h6><ul><li><p>Landscape的Scale单位为cm。大小为 scale<!-- -->*<!-- -->quards<!-- -->*<!-- -->sections<!-- -->*<!-- -->components。</p><ul><li>X-scale of 500, 7x7 quads, 1x1 section per component and 16x16 components</li><li>500cm x 7quads x  1 sections x 16components = 560m</li></ul></li><li><p>Landscape需要包含多层Layer才可以在Paint多层layer。
+<img src="/img/blog_img/Unreal/LandscapeMultiLayerInfo.jpg"/>
+<img src="/img/blog_img/Unreal/LandscapeMultiLayer.jpg"/></p></li><li><p>LandscapeCoords可以控制layer的UV。当导入的高度图与当前Landscape大小不一样时计数公式为:</p><ul><li>(Landscape大小 - 高度图大小) / 2 / Landscape大小。得到UV的偏移值。
+<img src="/img/blog_img/Unreal/unreal_LandscapeCoords_size.jpg"/></li></ul></li><li><p>如果要做FlatShading需要用AbsoluteWorldPosition，DDX，DDY进行Cross求出当面的法线。
+<img src="/img/blog_img/Unreal/LandscapeFlatNormal.jpg"/></p></li></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unreal4 学习记录-Miscellaneous相关]]></title>
+            <link>https://HalfMAI.github.io/blog/Unreal4Learning/2017-10-25-Unreal4Learning00-Miscellaneous</link>
+            <guid>/Unreal4Learning/2017-10-25-Unreal4Learning00-Miscellaneous</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[旧杂项信息]]></description>
+            <content:encoded><![CDATA[<p>旧杂项信息</p><h6>关于DotProduct与CrossProduct</h6><h4>DotProduct</h4><p>有标量向量时，一个向量在标量向量的投影长度</p><p>DotProduct有标量时的意义：
+<img src="/img/blog_img/Unreal/300px-Dot_Product.svg.png"/></p><h4>DotProduct</h4><p>两向量之间的垂直程度</p><p>CrossProduct意义:
+<img src="/img/blog_img/Unreal/Cross_product.gif"/></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unreal4 2020秋季学习]]></title>
+            <link>https://HalfMAI.github.io/blog/Unreal4Learning/2020-12-05-UnrealLearning-2020Fall</link>
+            <guid>/Unreal4Learning/2020-12-05-UnrealLearning-2020Fall</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[2020秋季学习简单记录]]></description>
+            <content:encoded><![CDATA[<p>2020秋季学习简单记录</p><h1>2020秋季学习挑战</h1><p><strong>学习课程：</strong></p><ul><li><a href="https://www.unrealengine.com/onlinelearning-courses/build-a-detectives-office-game-environment">构建游戏场景 - 侦探事务所</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/converting-blueprints-to-c">将蓝图转换为C++代码</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/creating-photoreal-cinematics-with-quixel">使用Quixel创建逼真动画</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/ambient-and-procedural-sound-design">环境音效与程序化音效的设计</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/dynamic-audio">动态音频</a></li></ul><h1>1. 构建游戏场景 - 侦探事务所</h1><h2>使用简报(Brief)进行汇总创意</h2><blockquote><ul><li><strong>地点在哪个具体地点？</strong>
+-&gt; 纽约市</li><li><strong>场景描述，是什么类型的场景？</strong>
+-&gt; 私人住宅或者办公室</li><li><strong>空间作用是什么？</strong>
+-&gt; 侦探事务所</li><li><strong>谁使用此空间？</strong>
+-&gt; 大概40岁的疲于奔命的中年侦探</li><li><strong>谁使用此空间想达至什么目的？</strong>
+-&gt; 想解决一件绑架案</li><li><strong>场景当前大概是什么时间点发生的？</strong>
+-&gt; 大概90年代</li><li><strong>场景中的物品大概是什么时间点制作的？</strong>
+-&gt; 大概80年代</li><li><strong>当前是什么一天中的什么时间点？</strong>
+-&gt; 黄昏</li><li><strong>当前的天气是怎么样的？</strong>
+-&gt; 阴沉</li></ul></blockquote><h3>根据上述简报整理关键字进行后续创意定形</h3><blockquote><ul><li>查找对应参考图片【室外场景， 室内场景， 服装， 小物品】等</li><li>使用PureRef软件进行图片管理并缩小最终使用参考图片范围</li><li>画出最简单的场景俯视图布局，应该尽量保持简单
+<img src="/img/blog_img/Unreal/UE2020Fall_1_simple_map.png" alt="UE2020Fall_1_simple_map"/></li><li>最后使用情缘板整合确立最终的<ul><li>美术风格</li><li>游戏主题</li><li>场景结构</li></ul></li></ul></blockquote><h2>命名规范与文件夹结构管理</h2><blockquote><ul><li>静态网格: SM_
+例： SM_Bookcase</li><li>纹理: T_<ul><li>漫反射：_D</li><li>法线：_N</li><li>Mask: _M
+例： T_Bookcase_D</li></ul></li><li>材质：M_</li><li>材质实例：MI_</li><li>文件夹结构
+<img src="/img/blog_img/Unreal/UE2020Fall_1_folder_stuct.png" alt="UE2020Fall_1_folder_stuct.png"/></li><li>制作资源列表，用于安排开发进度，也可记录像某纹理属于哪个模型等信息方便管理</li></ul></blockquote><h2>UE项目初始准备流程</h2><blockquote><ul><li>以第一人称模版为基础进行项目建立</li><li>了解简单的世界大纲操作与文件夹结构管理</li><li>编辑第一人称角色中的内容，修改设置中使用的HUD，模型与发射功能</li></ul></blockquote><h2>空间原型制作循环部分</h2><blockquote><ul><li>使用其它软件或者UE内的BSP绘制空间草图</li><li>原型空间草图FBX导入时，可不选择【自动生成碰撞】与 【自动生成光照UV】</li><li>测试【空间大小】，如果不合适，再循环第一步</li><li>空间原型制作应该只关注空间比例感，不要过于追求细节</li></ul></blockquote><h2>空间原型分区域制作细节部分循环</h2><blockquote><ul><li>利用之前定义好的命名与结构规范进行分区域细节模型制作</li><li>在DDC里进行制作碰撞体，碰撞体名字要以&quot;UCX_&quot;作为前缀，多个block的时候要以&quot;_01&quot;，&quot;_02&quot;做后缀<ul><li>或者直接在UE里生成。个人认为这种方式更方便一点，除非生成的碰撞体十分不合适或者过于复杂</li></ul></li><li>制作主材质，把纹理作为参数制作以主材质派生的实例材质</li><li>进行纹理导入MASK纹理（遮挡、粗糙度和金属感）时，记得要设置压缩设置为【MASK】和【不勾选sRGB】<ul><li>Mask纹理，也有叫ASMR(RGBA顺序不固定)<ul><li>Ambient Occlusion</li><li>Specular</li><li>Metallic</li><li>Roughness</li></ul></li></ul></li><li>对于每一个区域的模型循环上述流程</li><li>在制作每一个模型的时候，制作资源列表，记录各资源情况（更好的管理资源）<ul><li>模型名字</li><li>模型原点位置（有部分模型的位置由DDC管理时这样可以更好的识别哪些模型在世界坐标的位置）</li><li>模型类型</li><li>模型纹理列表</li></ul></li><li>场景情感表达<ul><li>大物品：建筑物框定场景使用定位和地点</li><li>中物品：书桌，灯之类展示场景的用途</li><li>中型小型道具：凌乱的文件夹，散落的药片等描述或暗示人物性格，刻画人物的心理状态</li></ul></li><li>场景布置时不一定需要任何东西都要对齐，这样看起来更有现实感</li></ul></blockquote><h2>添加光照</h2><blockquote><ul><li>添加【自发光材质】乘上亮度，使用聚光灯+点光源【无阴影】来模拟GI</li><li>使用 Ctrl+L+LeftBtn 可创建对应鼠标位置颜色的灯光</li><li>使用色卡来控制整体光照颜色，然后进行光照贴图烘焙（如果是自己制作光照贴图UV记得不可重叠）</li><li>光照贴图密度ALT+o可查看，大小为绿色为刚好</li><li>添加重要光照体积 和 光照门户使场景光照更自然</li><li>反射捕获球的分辨率在项目设置中的 渲染里设置，默认是128</li><li>添加大气雾与后期处理体积进行气氛定调</li></ul></blockquote><h2>END of Alpha pass</h2><p>课程至此结束，未来可能继续添加互动性和声音到场景中</p><blockquote><ul><li>添加室外的远景</li><li>添加和编辑天空盒</li><li>添加动画资源</li><li>添加蓝图功能让玩家可以拾取某些资源</li><li>添加一些带铰链的门和滑门</li><li>添加环境音效和循环音效</li><li>添加玩家脚步声和语音</li><li>最后设置持久关卡层制作关卡流加载</li></ul></blockquote><h1>2. 将蓝图转换为C++代码</h1><p>课程主要着重于</p><blockquote><ul><li>在虚幻中使用C++</li><li>转换蓝图于C++</li><li>蓝图与C++结合使用</li></ul></blockquote><h2>蓝图与C++</h2><blockquote><ul><li>蓝图<ul><li>编译更快，简单功能实现更快捷</li><li>简单的功能更容易理解</li><li>有友好提示和更适合设计师与美术人员</li></ul></li><li>C++<ul><li>性能更强，因为蓝图都需要在虚拟机中运行（但蓝图一般不会是性能问题点。可结合调试工具查看具体问题）</li><li>可以访问任何API，因为蓝图基础功能都需要C++提供功能，所以有一定限制</li><li>版本控制更方便（蓝图更难控制一点，因二进制文件，不过后续会有更好的对比工具）</li></ul></li></ul></blockquote><h2>基础项目结构</h2><p><img src="/img/blog_img/Unreal/UE2020Fall_2_Architecture.jpg" alt="UE2020Fall_2_Architecture"/></p><h1>3. 使用Quixel创建逼真动画</h1><h1>4. 环境音效与程序化音效的设计</h1><h1>5. 动态音频</h1>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[颜色使用相关]]></title>
+            <link>https://HalfMAI.github.io/blog/Unreal4Learning/2021-02-03-UnrealLearning-color</link>
+            <guid>/Unreal4Learning/2021-02-03-UnrealLearning-color</guid>
+            <pubDate>Wed, 26 Jan 2022 09:08:11 GMT</pubDate>
+            <description><![CDATA[色彩相关的信息记录]]></description>
+            <content:encoded><![CDATA[<p>色彩相关的信息记录</p><h1>色彩的分类</h1><ul><li>无彩色</li></ul><blockquote><p><img src="/img/blog_img/Unreal/color/%E6%97%A0%E5%BD%A9%E8%89%B2.jpg" alt="无彩色"/> <br/>
+无彩色是没有颜色的颜色，例如白色，黑色和灰色。</p></blockquote><ul><li>有彩色</li></ul><blockquote><p><img src="/img/blog_img/Unreal/color/%E6%9C%89%E5%BD%A9%E8%89%B2.jpg" alt="有彩色"/> <br/>
+彩色是具有色彩的颜色，例如红色或蓝色。</p></blockquote><h2>色彩的三个属性</h2><h3>色相</h3><blockquote><p><img src="/img/blog_img/Unreal/color/%E7%BA%AF%E8%89%B2.jpg" alt="纯色"/> <br/>
+色相与明度和纯度无关，简单来说是指红色、蓝色等色彩的名称。<br/>
+<!-- -->将色相按波长进行循环排列，就形成了色相环。<br/>
+<!-- -->通常，我们把通过光谱显示的颜色氛围红色、黄色、蓝色、紫色等色相，而实际上在这几个色相之间还存在着无数不知名的颜色。<br/>
+<!-- -->色相与光线的波长大小密切相关，其中波长较长的色相为红色，波长较短的色相为蓝色，适中的波长为绿色。<br/>
+<!-- -->然而波长较长的红色与波长较短的紫色，人们从心理上就默认为是近似色，若把光谱中陈列的红色和紫色连接起来，就能够的得到所有颜色逐渐变化的渐变效果。</p></blockquote><h3>明度（亮度）</h3><blockquote><p><img src="/img/blog_img/Unreal/color/%E6%98%8E%E5%BA%A6.jpg" alt="明度"/> <br/>
+人们看到的物体的颜色必须在具备光线的条件下，物体表面吸收或者反射光线的状态决定该物体的颜色。<br/>
+<!-- -->若某种物体能够吸收所有进入的光线，即不反射任何颜色，就形成了黑色。<br/>
+<!-- -->相反，若物体反射了所有进入的光线，则这些反射的光线就形成了白色。反射的光线强弱不同使物体所呈现的光亮不同，从而生成亮色与暗色，这就是色彩的明度。<br/>
+<!-- -->在我们对明度的学习中，讲黑白灰化成10个等级。<br/>
+<!-- -->比较明亮的称之为高明度，比较暗的称之为低明度，介于中间的成为中明度，有彩色中，黄色明度最高，紫色明度最低。</p></blockquote><h3>彩度（纯度、饱和度）</h3><blockquote><p><img src="/img/blog_img/Unreal/color/%E5%BD%A9%E5%BA%A6.jpg" alt="彩度"/> <br/>
+纯度是指色彩中包含色相的程度，即色彩的鲜艳程度。<br/>
+<!-- -->色彩越接近纯色，说明纯度越高，色彩中混合的颜色越多，纯度越低。和明度不一样，纯度也分为高纯度、中纯度和低纯度。<br/>
+<!-- -->无彩色是不分纯度的。</p></blockquote><h2>简单总结</h2><ul><li>无色彩类：没有颜色的颜色，黑白灰。</li><li>有色彩类：具有颜色的颜色。</li><li>色相：不同的颜色。</li><li>亮度：  颜色的亮度。</li><li>饱和度：颜色的强度。</li></ul><h1>色彩的关系</h1><blockquote><p><img src="/img/blog_img/Unreal/color/%E4%BA%92%E8%A1%A5%E8%89%B2.jpg" alt="互补色"/> <br/>
+互补色：指色环对面180度的两种颜色互为补色，视觉效果鲜明，彰显个性活跃饱满。</p></blockquote><blockquote><p><img src="/img/blog_img/Unreal/color/%E5%AF%B9%E6%AF%94%E8%89%B2.jpg" alt="对比色"/> <br/>
+对比色：指24色环上相距120-150度之间的两种颜色，这种搭配既有对比又不失和谐。</p></blockquote><blockquote><p><img src="/img/blog_img/Unreal/color/%E9%82%BB%E8%BF%91%E8%89%B2.jpg" alt="邻近色"/> <br/>
+邻近色:色环中相差30-60度的颜色，比如红色和橙色、橙色和黄色、黄色和绿色。在统一中又有变化，视觉和谐悦目，比同色系搭配稍微生动些。</p></blockquote><h1>PCCS色调图</h1><p>色调是通过结合【<strong>亮度</strong>】和【<strong>彩度</strong>】来直观地表达色彩印象的色调。</p><blockquote><p><img src="/img/blog_img/Unreal/color/tone.png" alt="tone"/> <br/></p></blockquote><h1>色彩与感觉</h1><p><img src="/img/blog_img/Unreal/color/%E8%89%B2%E5%BD%A9%E4%B8%8E%E5%86%B7%E6%9A%96%E8%BD%BB%E9%87%8D.jpg" alt="色彩与冷暖轻重"/> <br/>
+<img src="/img/blog_img/Unreal/color/%E8%89%B2%E5%BD%A9%E4%B8%8E%E6%83%85%E6%84%9F1.jpg" alt="色彩与情感1"/> <br/></p><blockquote><p>冷暖感受<br/>
+<img src="/img/blog_img/Unreal/color/%E5%86%B7%E6%9A%96.jpg" alt="冷暖"/> <br/></p><ul><li>暖色给人的印象是生动的，激情的，有表现力的，给人感觉在空间位置靠前。</li><li>冷色给人的印象是谨慎的，冷静的，产生平静感，给人感觉在空间位置靠后。</li></ul></blockquote><blockquote><p>重量感<br/>
+<img src="/img/blog_img/Unreal/color/%E9%87%8D%E9%87%8F%E6%84%9F.jpg" alt="重量感"/> <br/></p><ul><li>轻色：一般为明度高，冷色。</li><li>重色：一般为明度低，暖色。</li></ul></blockquote><blockquote><p>前进色与后退色<br/>
+<img src="/img/blog_img/Unreal/color/%E5%89%8D%E8%BF%9B%E5%90%8E%E9%80%80.jpg" alt="前进后退"/> <br/></p><ul><li>前进色：一般是暖色或者明度和纯度都较高，给人一种视觉上靠近观者的感觉。</li><li>后退色：一般是冷色或者明度和纯度都较低，给人一种视觉上远离观者的感觉。</li></ul></blockquote><blockquote><p>体积感  </p><p><img src="/img/blog_img/Unreal/color/%E8%86%A8%E8%83%80%E6%94%B6%E7%BC%A9.jpg" alt="膨胀收缩"/> <br/></p><ul><li>膨胀色一般是前进色和暖色，明度较高。</li><li>收缩色一般是后退色和冷色，明度较低。</li></ul></blockquote><blockquote><p>兴奋沉稳  </p><p><img src="/img/blog_img/Unreal/color/%E5%85%B4%E5%A5%8B%E6%B2%89%E7%A8%B3.jpg" alt="兴奋沉稳"/> <br/></p><ul><li>温暖和高度饱和的颜色给人以兴奋的感觉。</li><li>凉爽的颜色给人以沉稳的感觉。</li></ul></blockquote><h2>其它相关关系</h2><p><img src="/img/blog_img/Unreal/color/%E8%89%B2%E5%BD%A9%E4%B8%8E%E6%83%85%E6%84%9F2.jpg" alt="色彩与情感2"/> <br/></p><h1>颜色与应用</h1><h2>配色方式</h2><h3>类似色相 不同色调</h3><p><img src="/img/blog_img/Unreal/color/%E9%85%8D%E8%89%B21.jpg" alt="配色1"/> <br/></p><h3>邻近色相 相同色调</h3><p><img src="/img/blog_img/Unreal/color/%E9%85%8D%E8%89%B22.jpg" alt="配色2"/> <br/></p><h3>相同色相 不同亮度</h3><p><img src="/img/blog_img/Unreal/color/%E9%85%8D%E8%89%B23.jpg" alt="配色3"/> <br/></p><h3>不同色相 相同色调</h3><p><img src="/img/blog_img/Unreal/color/%E9%85%8D%E8%89%B24.jpg" alt="配色4"/> <br/></p><h3>无彩色使用情况</h3><p>中性色（也称无彩色）：黑、白、灰、金、银与任何色彩之间都能独立承担缓冲与补色平衡的角色，在任何不协调的色彩之间，只要间隙1条中性色条就能使色彩统一起来。</p><p><img src="/img/blog_img/Unreal/color/%E6%97%A0%E5%BD%A9%E8%89%B2%E4%BD%BF%E7%94%A81.jpg" alt="无彩色使用1"/> <br/>
+<img src="/img/blog_img/Unreal/color/%E6%97%A0%E5%BD%A9%E8%89%B2%E4%BD%BF%E7%94%A82.jpg" alt="无彩色使用2"/> <br/></p><h2>色彩分配比例（只用于参考）</h2><p><img src="/img/blog_img/Unreal/color/%E8%89%B2%E5%BD%A9%E5%88%86%E9%85%8D%E6%AF%94%E4%BE%8B.jpg" alt="色彩分配比例"/> <br/></p><h2>网页与配色</h2><p><a href="https://zhuanlan.zhihu.com/p/20907635">https://zhuanlan.zhihu.com/p/20907635</a>  </p><h2>UX与配色</h2><h3>高吸引力的颜色</h3><blockquote><p><img src="/img/blog_img/Unreal/color/%E5%90%B8%E5%BC%95%E5%8A%9B.jpg" alt="吸引力"/> <br/></p></blockquote><ul><li>高彩度</li><li>高明度</li><li>暖色居多</li></ul><h3>高可见性的颜色</h3><blockquote><p><img src="/img/blog_img/Unreal/color/%E5%8F%AF%E8%A7%81%E6%80%A71.jpg" alt="可见性1"/> <br/>
+<img src="/img/blog_img/Unreal/color/%E5%8F%AF%E8%A7%81%E6%80%A72.jpg" alt="可见性2"/> <br/></p></blockquote><ul><li>前景与背景明度差异大的颜色</li><li>尽量使用对比色</li></ul><h3>高区分度的颜色</h3><blockquote><p><img src="/img/blog_img/Unreal/color/%E5%8C%BA%E5%88%86%E5%BA%A61.jpg" alt="区分度1"/> <br/>
+<img src="/img/blog_img/Unreal/color/%E5%8C%BA%E5%88%86%E5%BA%A62.jpg" alt="区分度2"/> <br/></p></blockquote><ul><li>采用【对比色】做分类区分</li></ul><h3>同颜色组合中特出对比</h3><blockquote><p><img src="/img/blog_img/Unreal/color/%E6%98%8E%E5%BA%A6%E5%AF%B9%E6%AF%94.jpg" alt="明度对比"/> <br/>
+<img src="/img/blog_img/Unreal/color/%E7%BB%84%E5%90%88%E4%B8%AD%E5%AF%B9%E6%AF%94.jpg" alt="组合中对比"/> <br/></p></blockquote><ul><li>采用【明度】做区分，明度越【高】越重要</li></ul><h1>引用相关</h1><h2>参考资料</h2><p><a href="https://zhuanlan.zhihu.com/p/20907635">https://zhuanlan.zhihu.com/p/20907635</a><br/>
+<a href="https://zhuanlan.zhihu.com/p/112863581">https://zhuanlan.zhihu.com/p/112863581</a><br/>
+<a href="https://www.zcool.com.cn/article/ZODM3MTIw.html">https://www.zcool.com.cn/article/ZODM3MTIw.html</a><br/>
+<a href="https://game-ui.net/?p=1153">https://game-ui.net/?p=1153</a><br/>
+<a href="http://rock77.fc2web.com/main/color/color1-12.html">http://rock77.fc2web.com/main/color/color1-12.html</a>  </p><h2>颜色盘网站</h2><p><a href="https://geenes.app/">https://geenes.app/</a><br/>
+<a href="https://color.adobe.com/zh/create/color-wheel">https://color.adobe.com/zh/create/color-wheel</a><br/>
+<a href="https://paletton.com/">https://paletton.com/</a><br/>
+<a href="https://uigradients.com/#Christmas">https://uigradients.com/#Christmas</a></p><h2>UX使用相关</h2><p><a href="https://uxmovement.com/category/forms/">https://uxmovement.com/category/forms/</a></p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

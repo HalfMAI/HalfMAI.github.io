@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhalf_mai_blog=self.webpackChunkhalf_mai_blog||[]).push([[5299],{2171:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/landscape","name":"Landscape","count":1,"permalink":"/blog/tags/landscape"}')}}]);

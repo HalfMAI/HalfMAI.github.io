@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhalf_mai_blog=self.webpackChunkhalf_mai_blog||[]).push([[8549],{2100:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/color","name":"Color","count":1,"permalink":"/blog/tags/color"}')}}]);

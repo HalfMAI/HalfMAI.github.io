@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhalf_mai_blog=self.webpackChunkhalf_mai_blog||[]).push([[86],{8835:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/record","name":"Record","count":2,"permalink":"/blog/tags/record"}')}}]);

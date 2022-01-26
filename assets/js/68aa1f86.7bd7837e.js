@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhalf_mai_blog=self.webpackChunkhalf_mai_blog||[]).push([[1274],{8834:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/bleander","name":"Bleander","count":1,"permalink":"/blog/tags/bleander"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhalf_mai_blog=self.webpackChunkhalf_mai_blog||[]).push([[4708],{1712:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/marketing","name":"Marketing","count":1,"permalink":"/blog/tags/marketing"}')}}]);
