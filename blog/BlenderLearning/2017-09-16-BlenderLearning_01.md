@@ -7,6 +7,7 @@ categories:
 tags:
   - Bleander
 ---
+ <!--truncate-->
 
 基本上带方向的移动，按x，y，z可以选定轴shift+XYZ 是反选定轴。
 右键选择多个obj时，像make parent之类的合并操作等，都是应用到最后的obj上。

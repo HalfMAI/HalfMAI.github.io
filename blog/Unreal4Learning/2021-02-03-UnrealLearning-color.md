@@ -12,7 +12,6 @@ tags:
   - Record
   - Color
 ---
-
 色彩相关的信息记录
 <!--truncate-->
 
