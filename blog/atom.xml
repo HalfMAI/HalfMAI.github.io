@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HalfMAI.github.io/blog</id>
     <title>HalfMAI's Memory Blog</title>
-    <updated>2022-01-26T09:08:11.736Z</updated>
+    <updated>2022-01-26T10:03:23.051Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HalfMAI.github.io/blog"/>
     <subtitle>HalfMAI's Memory Blog</subtitle>
@@ -11,17 +11,34 @@
         <title type="html"><![CDATA[Distortion Shader]]></title>
         <id>/BenClowardMaterial/2021-08-08-DistortionShader</id>
         <link href="https://HalfMAI.github.io/blog/BenClowardMaterial/2021-08-08-DistortionShader"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[Distortion Shader]]></summary>
         <content type="html"><![CDATA[<p><img src="/img/blog_img/BenClowardMaterial/01/distortionEffect.gif" alt="Distortion Shader"/> <br/>
-Distortion Shader</p><h1>学习地址：</h1><p>Distortion Shader - UE4 Materials 101 - Episode 4
-<a href="https://www.youtube.com/watch?v=gwx2NOZJ5CE">https://www.youtube.com/watch?v=gwx2NOZJ5CE</a> </p><h1>学习重点：</h1><ul><li>Texture的UV坐标位置变换：Panner节点</li><li>通过提供图片各通道灰度进行Add</li><li>使用Add节点进行对效果 叠加</li></ul><h1>具体效果：</h1><p><img src="/img/blog_img/BenClowardMaterial/01/distortionEffect.gif" alt="Distortion Shader"/></p><h1>节点预览：</h1><p><img src="/img/blog_img/BenClowardMaterial/01/%E5%85%A8%E5%9B%BE%E8%8A%82%E7%82%B9.png" alt="节点全图"/></p>]]></content>
+Distortion Shader</p><h2>学习地址</h2><p>Distortion Shader - UE4 Materials 101 - Episode 4</p><p><a href="https://www.youtube.com/watch?v=gwx2NOZJ5CE">https://www.youtube.com/watch?v=gwx2NOZJ5CE</a> </p><h2>学习重点</h2><ul><li>Texture的UV坐标位置变换：Panner节点</li><li>通过提供图片各通道灰度进行Add</li><li>使用Add节点进行对效果 叠加</li></ul><h2>具体效果</h2><p><img src="/img/blog_img/BenClowardMaterial/01/distortionEffect.gif" alt="Distortion Shader"/></p><h2>节点预览</h2><p><img src="/img/blog_img/BenClowardMaterial/01/%E5%85%A8%E5%9B%BE%E8%8A%82%E7%82%B9.png" alt="节点全图"/></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Environment Blending]]></title>
+        <id>/BenClowardMaterial/2021-08-09-Environment_Blending</id>
+        <link href="https://HalfMAI.github.io/blog/BenClowardMaterial/2021-08-09-Environment_Blending"/>
+        <updated>2022-01-26T10:03:23.051Z</updated>
+        <summary type="html"><![CDATA[Environment Blending]]></summary>
+        <content type="html"><![CDATA[<p><img src="/img/blog_img/BenClowardMaterial/02/result.png" alt="Environment Blending"/> <br/>
+Environment Blending</p><h2>学习地址</h2><p>Environment Blending - UE4 Materials 101 - Episode 6</p><p><a href="https://www.youtube.com/watch?v=QwVDlS8uiYg&amp;list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&amp;index=7">https://www.youtube.com/watch?v=QwVDlS8uiYg&amp;list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&amp;index=7</a></p><h2>学习重点</h2><p>1.使用TransformVector把法线从切线空间 转换到世界空间</p><p><img src="/img/blog_img/BenClowardMaterial/02/TransformVector.png" alt="TransformVector"/></p><p>2.使用Z方向的 -0.5 * 对比 +0.5 来控制</p><p><img src="/img/blog_img/BenClowardMaterial/02/sub_contrast_add.png" alt="sub_contrast_add"/></p><p>3.使用reroute进行对临时输出节点命名</p><p><img src="/img/blog_img/BenClowardMaterial/02/rerouted.png" alt="rerouted"/></p><h2>具体效果</h2><p><img src="/img/blog_img/BenClowardMaterial/02/result.png" alt="Environment Blending"/></p><h2>节点预览</h2><p><img src="/img/blog_img/BenClowardMaterial/02/fullNode.png" alt="节点全图"/></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bump Offset and Parallax Occlusion Mapping]]></title>
+        <id>/BenClowardMaterial/2021-08-10-Bump_Offset_and_Parallax_Occlusion_Mapping</id>
+        <link href="https://HalfMAI.github.io/blog/BenClowardMaterial/2021-08-10-Bump_Offset_and_Parallax_Occlusion_Mapping"/>
+        <updated>2022-01-26T10:03:23.051Z</updated>
+        <summary type="html"><![CDATA[ParallaxOcclusionMapping]]></summary>
+        <content type="html"><![CDATA[<p><img src="/img/blog_img/BenClowardMaterial/03/ParallaxOcclusionMapping.png" alt="ParallaxOcclusionMapping"/> <br/>
+Parallax Occlusion Mapping</p><h2>学习地址</h2><p>Bump Offset and Parallax Occlusion Mapping - UE4 Materials 101 - Episode 8</p><p><a href="https://www.youtube.com/watch?v=wc0StMr3CQo&amp;list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&amp;index=9">https://www.youtube.com/watch?v=wc0StMr3CQo&amp;list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&amp;index=9</a></p><h2>学习重点</h2><p>1.使用MASK采样类型，Texture也需要使用非sRGB线性空间进行BumpOffset或ParallaxOcclusionMapping</p><p><img src="/img/blog_img/BenClowardMaterial/03/mask.png" alt="mask"/></p><p>2.MASK图片的尺寸不用太大，最好模糊一点，这里使用的是256</p><p>3.BumpOffset 比 ParallaxOcclusionMapping消耗更小，155 vs 192</p><h2>具体效果</h2><h3>BumpOffset</h3><p><img src="/img/blog_img/BenClowardMaterial/03/BumpOffset.png" alt="BumpOffset"/></p><h3>ParallaxOcclusionMapping</h3><p><img src="/img/blog_img/BenClowardMaterial/03/ParallaxOcclusionMapping.png" alt="ParallaxOcclusionMapping"/></p><h2>节点预览</h2><p><img src="/img/blog_img/BenClowardMaterial/03/result_all_node.png" alt="节点全图"/></p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Blender学习]]></title>
         <id>/BlenderLearning/2017-09-16-BlenderLearning_01</id>
         <link href="https://HalfMAI.github.io/blog/BlenderLearning/2017-09-16-BlenderLearning_01"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[基本上带方向的移动，按x，y，z可以选定轴shift+XYZ 是反选定轴。]]></summary>
         <content type="html"><![CDATA[<p>基本上带方向的移动，按x，y，z可以选定轴shift+XYZ 是反选定轴。
 右键选择多个obj时，像make parent之类的合并操作等，都是应用到最后的obj上。
@@ -36,7 +53,7 @@ lerp的顶点密度。
         <title type="html"><![CDATA[关于广告投放]]></title>
         <id>/Marketing/2016-09-16-Marketing_01</id>
         <link href="https://HalfMAI.github.io/blog/Marketing/2016-09-16-Marketing_01"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[一般结算模式]]></summary>
         <content type="html"><![CDATA[<h1>广告投放相关术语</h1><h2>一般结算模式</h2><p><img src="/img/blog_img/Marketing/img_01.png" alt="img_01"/></p><h2>展示端结算方式</h2><blockquote><ul><li><em>CPC(Cost Per Mille)-每千人成本</em>
 只要向足够量级的用户展示了广告主的内容，广告主就要付费。按此计费的广告一般是以品牌展示柜和产品发布为主。曝光效果比较好。</li><li><em>CPT(Cost Pre Time)-每段时间成本</em>
@@ -59,7 +76,7 @@ lerp的顶点密度。
         <title type="html"><![CDATA[Unreal4 学习记录-调试]]></title>
         <id>/Unreal4Learning/2017-09-18-Unreal4Learning01-Debug</id>
         <link href="https://HalfMAI.github.io/blog/Unreal4Learning/2017-09-18-Unreal4Learning01-Debug"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[调试相关记录]]></summary>
         <content type="html"><![CDATA[<p>调试相关记录</p><h6>关于C++崩溃时的调试</h6><ul><li><strong><em>在UE_Editor执行时，崩溃时会生成调用堆栈在剪贴板上</em></strong></li><li>crashReport的文件夹里有<code>log</code>和<code>minidump</code>。只要调试的<code>PDB文件</code>还在，直接打开就可以看到错误的代码</li></ul><h6>断言</h6><p>运行时断言宏类型</p><ul><li>停止执行</li><li>Debug版并停止执行</li><li>不停止并报告错误</li></ul><p><img src="/img/blog_img/Unreal/build_debug_define.jpg"/></p><hr/><p><strong>check(expression);</strong></p><ul><li>false时停止执行，只在build(Do_CHECK=1)时执行</li></ul><p><strong>checkf(expression, ...);</strong></p><ul><li>check崩溃时，可以log信息在生成的调用堆栈上</li></ul><p><strong>verify(expression);</strong>
 <strong>verifyf(expression, ...);</strong></p><ul><li>和check一样，但无论是否build都会执行</li></ul><p><strong>checkCode(expression);</strong></p><ul><li>check的可以运行代码的版本，使用do/while去执行(为什么？)</li></ul><pre><code class="language-js">checkCode( 
@@ -96,7 +113,7 @@ verifySlow(LastValue == Current);
         <title type="html"><![CDATA[Unreal4 学习记录-Landscape相关]]></title>
         <id>/Unreal4Learning/2017-09-27-Unreal4Learning02-Landscape</id>
         <link href="https://HalfMAI.github.io/blog/Unreal4Learning/2017-09-27-Unreal4Learning02-Landscape"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[关于Landscape]]></summary>
         <content type="html"><![CDATA[<h6>关于Landscape</h6><p>技术指导:
 <a href="https://docs.unrealengine.com/latest/INT/Engine/Landscape/TechnicalGuide/index.html">https://docs.unrealengine.com/latest/INT/Engine/Landscape/TechnicalGuide/index.html</a></p><h6>Shader部分</h6><ul><li><p>Landscape的Scale单位为cm。大小为 scale<!-- -->*<!-- -->quards<!-- -->*<!-- -->sections<!-- -->*<!-- -->components。</p><ul><li>X-scale of 500, 7x7 quads, 1x1 section per component and 16x16 components</li><li>500cm x 7quads x  1 sections x 16components = 560m</li></ul></li><li><p>Landscape需要包含多层Layer才可以在Paint多层layer。
@@ -109,7 +126,7 @@ verifySlow(LastValue == Current);
         <title type="html"><![CDATA[Unreal4 学习记录-Miscellaneous相关]]></title>
         <id>/Unreal4Learning/2017-10-25-Unreal4Learning00-Miscellaneous</id>
         <link href="https://HalfMAI.github.io/blog/Unreal4Learning/2017-10-25-Unreal4Learning00-Miscellaneous"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[旧杂项信息]]></summary>
         <content type="html"><![CDATA[<p>旧杂项信息</p><h6>关于DotProduct与CrossProduct</h6><h4>DotProduct</h4><p>有标量向量时，一个向量在标量向量的投影长度</p><p>DotProduct有标量时的意义：
 <img src="/img/blog_img/Unreal/300px-Dot_Product.svg.png"/></p><h4>DotProduct</h4><p>两向量之间的垂直程度</p><p>CrossProduct意义:
@@ -119,7 +136,7 @@ verifySlow(LastValue == Current);
         <title type="html"><![CDATA[Unreal4 2020秋季学习]]></title>
         <id>/Unreal4Learning/2020-12-05-UnrealLearning-2020Fall</id>
         <link href="https://HalfMAI.github.io/blog/Unreal4Learning/2020-12-05-UnrealLearning-2020Fall"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[2020秋季学习简单记录]]></summary>
         <content type="html"><![CDATA[<p>2020秋季学习简单记录</p><h1>2020秋季学习挑战</h1><p><strong>学习课程：</strong></p><ul><li><a href="https://www.unrealengine.com/onlinelearning-courses/build-a-detectives-office-game-environment">构建游戏场景 - 侦探事务所</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/converting-blueprints-to-c">将蓝图转换为C++代码</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/creating-photoreal-cinematics-with-quixel">使用Quixel创建逼真动画</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/ambient-and-procedural-sound-design">环境音效与程序化音效的设计</a></li><li><a href="https://www.unrealengine.com/onlinelearning-courses/dynamic-audio">动态音频</a></li></ul><h1>1. 构建游戏场景 - 侦探事务所</h1><h2>使用简报(Brief)进行汇总创意</h2><blockquote><ul><li><strong>地点在哪个具体地点？</strong>
 -&gt; 纽约市</li><li><strong>场景描述，是什么类型的场景？</strong>
@@ -140,7 +157,7 @@ verifySlow(LastValue == Current);
         <title type="html"><![CDATA[颜色使用相关]]></title>
         <id>/Unreal4Learning/2021-02-03-UnrealLearning-color</id>
         <link href="https://HalfMAI.github.io/blog/Unreal4Learning/2021-02-03-UnrealLearning-color"/>
-        <updated>2022-01-26T09:08:11.736Z</updated>
+        <updated>2022-01-26T10:03:23.051Z</updated>
         <summary type="html"><![CDATA[色彩相关的信息记录]]></summary>
         <content type="html"><![CDATA[<p>色彩相关的信息记录</p><h1>色彩的分类</h1><ul><li>无彩色</li></ul><blockquote><p><img src="/img/blog_img/Unreal/color/%E6%97%A0%E5%BD%A9%E8%89%B2.jpg" alt="无彩色"/> <br/>
 无彩色是没有颜色的颜色，例如白色，黑色和灰色。</p></blockquote><ul><li>有彩色</li></ul><blockquote><p><img src="/img/blog_img/Unreal/color/%E6%9C%89%E5%BD%A9%E8%89%B2.jpg" alt="有彩色"/> <br/>
