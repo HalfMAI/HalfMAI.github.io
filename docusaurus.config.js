@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "HalfMAI's Memory",
   tagline: '记录某些记忆',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://HalfMAI.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'HalfMAI', // Usually your GitHub org/user name.
   projectName: 'HalfMAI.github.io', // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   presets: [
     [
